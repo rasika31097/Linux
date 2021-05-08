@@ -40,7 +40,7 @@ void main()
 			else{
 				//y
 				int r, s;
-				while((r=wait(&s))!=-1)
+				while((r=wait(&s))!=-1) // wait(&s) will take the exit status of child process. Returns process ID on success and -1 on failure
 				{	
 				}	
 			}	
